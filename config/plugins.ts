@@ -1,4 +1,4 @@
-module.exports = ({ env }) => ({
+export default ({ env }) => ({
   'users-permissions': {
     config: {
       jwt: {
@@ -25,3 +25,4 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
